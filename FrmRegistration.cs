@@ -83,7 +83,7 @@ namespace SantosStreamsApp
                 {
                     MessageBox.Show("Middle initial must be letter only.");
                     txtMiddleInitial.Focus();
-                    return;   // stops here, file is not created
+                    return;   
                 }
 
                 string fileName = txtStudentNo.Text + ".txt";
