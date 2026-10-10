@@ -89,9 +89,9 @@ namespace SantosStreamsApp
                 string fileName = txtStudentNo.Text + ".txt";
 
             string folderPath = Path.Combine(
-                Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments),
-                "Santos_Dustine_LabStream");
-                 Directory.CreateDirectory(folderPath);
+            Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments),
+            "Santos_Dustine_LabStream");
+            Directory.CreateDirectory(folderPath);
                
                 string[] lines =
            {

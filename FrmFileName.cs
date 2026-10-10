@@ -15,12 +15,22 @@ namespace SantosStreamsApp
         public FrmFileName()
         {
             InitializeComponent();
+            SetFileName = null;
         }
 
         private void btnOkay_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrWhiteSpace(txtFileName.Text))
+            {
+                MessageBox.Show("Please enter a valid file name.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }   
+
             SetFileName = txtFileName.Text + ".txt";
-            Close();
+            MessageBox.Show("Registered! File saved as " + SetFileName);
+
+            this.DialogResult = DialogResult.OK;
+            this.Close();
         }
     }
 }

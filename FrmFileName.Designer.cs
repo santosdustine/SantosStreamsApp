@@ -35,17 +35,20 @@
             // 
             // txtFileName
             // 
-            txtFileName.Location = new Point(11, 75);
+            txtFileName.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txtFileName.Location = new Point(9, 64);
             txtFileName.Name = "txtFileName";
-            txtFileName.Size = new Size(298, 28);
+            txtFileName.Size = new Size(237, 26);
             txtFileName.TabIndex = 0;
             // 
             // btnOkay
             // 
-            btnOkay.BackColor = Color.DarkGray;
+            btnOkay.BackColor = Color.Red;
             btnOkay.FlatAppearance.BorderColor = Color.Gray;
             btnOkay.FlatStyle = FlatStyle.Flat;
-            btnOkay.Location = new Point(110, 129);
+            btnOkay.Font = new Font("Arial", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnOkay.ForeColor = Color.White;
+            btnOkay.Location = new Point(79, 107);
             btnOkay.Name = "btnOkay";
             btnOkay.Size = new Size(88, 30);
             btnOkay.TabIndex = 1;
@@ -56,25 +59,26 @@
             // lblFileName
             // 
             lblFileName.AutoSize = true;
-            lblFileName.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblFileName.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblFileName.Location = new Point(11, 23);
             lblFileName.Name = "lblFileName";
-            lblFileName.Size = new Size(151, 23);
+            lblFileName.Size = new Size(129, 19);
             lblFileName.TabIndex = 2;
             lblFileName.Text = "Enter File Name";
             // 
             // FrmFileName
             // 
-            AutoScaleDimensions = new SizeF(10F, 21F);
+            AutoScaleDimensions = new SizeF(8F, 16F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveBorder;
-            ClientSize = new Size(321, 184);
+            ClientSize = new Size(254, 159);
             Controls.Add(lblFileName);
             Controls.Add(btnOkay);
             Controls.Add(txtFileName);
             Font = new Font("Arial", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             Margin = new Padding(4, 3, 4, 3);
             Name = "FrmFileName";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "FrmFileName";
             ResumeLayout(false);
             PerformLayout();
