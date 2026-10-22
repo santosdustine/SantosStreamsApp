@@ -48,15 +48,16 @@
             txtContactNo = new TextBox();
             lblContactNo = new Label();
             btnRegister = new Button();
+            btnRecords = new Button();
             SuspendLayout();
             // 
             // lblRegistration
             // 
             lblRegistration.AutoSize = true;
             lblRegistration.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblRegistration.Location = new Point(14, 24);
+            lblRegistration.Location = new Point(9, 19);
             lblRegistration.Name = "lblRegistration";
-            lblRegistration.Size = new Size(102, 19);
+            lblRegistration.Size = new Size(125, 24);
             lblRegistration.TabIndex = 0;
             lblRegistration.Text = "Registration";
             // 
@@ -64,9 +65,9 @@
             // 
             lblStudentNo.AutoSize = true;
             lblStudentNo.Font = new Font("Arial", 12F);
-            lblStudentNo.Location = new Point(15, 58);
+            lblStudentNo.Location = new Point(9, 63);
             lblStudentNo.Name = "lblStudentNo";
-            lblStudentNo.Size = new Size(89, 18);
+            lblStudentNo.Size = new Size(113, 23);
             lblStudentNo.TabIndex = 1;
             lblStudentNo.Text = "Student No.";
             // 
@@ -74,9 +75,9 @@
             // 
             lblLastName.AutoSize = true;
             lblLastName.Font = new Font("Arial", 12F);
-            lblLastName.Location = new Point(20, 102);
+            lblLastName.Location = new Point(14, 107);
             lblLastName.Name = "lblLastName";
-            lblLastName.Size = new Size(84, 18);
+            lblLastName.Size = new Size(105, 23);
             lblLastName.TabIndex = 2;
             lblLastName.Text = "Last Name";
             // 
@@ -84,9 +85,9 @@
             // 
             lblAge.AutoSize = true;
             lblAge.Font = new Font("Arial", 12F);
-            lblAge.Location = new Point(56, 152);
+            lblAge.Location = new Point(50, 157);
             lblAge.Name = "lblAge";
-            lblAge.Size = new Size(37, 18);
+            lblAge.Size = new Size(45, 23);
             lblAge.TabIndex = 3;
             lblAge.Text = "Age";
             // 
@@ -94,9 +95,9 @@
             // 
             lblBirthday.AutoSize = true;
             lblBirthday.Font = new Font("Arial", 12F);
-            lblBirthday.Location = new Point(39, 205);
+            lblBirthday.Location = new Point(33, 210);
             lblBirthday.Name = "lblBirthday";
-            lblBirthday.Size = new Size(65, 18);
+            lblBirthday.Size = new Size(82, 23);
             lblBirthday.TabIndex = 4;
             lblBirthday.Text = "Birthday";
             // 
@@ -104,70 +105,70 @@
             // 
             lblPrograms.AutoSize = true;
             lblPrograms.Font = new Font("Arial", 12F);
-            lblPrograms.Location = new Point(354, 58);
+            lblPrograms.Location = new Point(348, 63);
             lblPrograms.Name = "lblPrograms";
-            lblPrograms.Size = new Size(69, 18);
+            lblPrograms.Size = new Size(86, 23);
             lblPrograms.TabIndex = 5;
             lblPrograms.Text = "Program";
             // 
             // txtStudentNo
             // 
             txtStudentNo.Font = new Font("Arial", 12F);
-            txtStudentNo.Location = new Point(113, 55);
+            txtStudentNo.Location = new Point(125, 57);
             txtStudentNo.Name = "txtStudentNo";
-            txtStudentNo.Size = new Size(201, 26);
+            txtStudentNo.Size = new Size(201, 30);
             txtStudentNo.TabIndex = 6;
             // 
             // txtLastName
             // 
             txtLastName.Font = new Font("Arial", 12F);
-            txtLastName.Location = new Point(113, 105);
+            txtLastName.Location = new Point(125, 107);
             txtLastName.Name = "txtLastName";
-            txtLastName.Size = new Size(201, 26);
+            txtLastName.Size = new Size(201, 30);
             txtLastName.TabIndex = 7;
             // 
             // txtAge
             // 
             txtAge.Font = new Font("Arial", 12F);
-            txtAge.Location = new Point(113, 152);
+            txtAge.Location = new Point(107, 157);
             txtAge.Name = "txtAge";
-            txtAge.Size = new Size(87, 26);
+            txtAge.Size = new Size(87, 30);
             txtAge.TabIndex = 8;
             // 
             // cbPrograms
             // 
             cbPrograms.Font = new Font("Arial", 12F);
             cbPrograms.FormattingEnabled = true;
-            cbPrograms.Location = new Point(443, 55);
+            cbPrograms.Location = new Point(437, 60);
             cbPrograms.Name = "cbPrograms";
-            cbPrograms.Size = new Size(326, 26);
+            cbPrograms.Size = new Size(283, 31);
             cbPrograms.TabIndex = 9;
             // 
             // lblFirstName
             // 
             lblFirstName.AutoSize = true;
             lblFirstName.Font = new Font("Arial", 12F);
-            lblFirstName.Location = new Point(338, 108);
+            lblFirstName.Location = new Point(332, 113);
             lblFirstName.Name = "lblFirstName";
-            lblFirstName.Size = new Size(85, 18);
+            lblFirstName.Size = new Size(106, 23);
             lblFirstName.TabIndex = 10;
             lblFirstName.Text = "First Name";
             // 
             // txtFirstName
             // 
             txtFirstName.Font = new Font("Arial", 12F);
-            txtFirstName.Location = new Point(443, 105);
+            txtFirstName.Location = new Point(437, 110);
             txtFirstName.Name = "txtFirstName";
-            txtFirstName.Size = new Size(188, 26);
+            txtFirstName.Size = new Size(174, 30);
             txtFirstName.TabIndex = 11;
             // 
             // lblGender
             // 
             lblGender.AutoSize = true;
             lblGender.Font = new Font("Arial", 12F);
-            lblGender.Location = new Point(367, 160);
+            lblGender.Location = new Point(361, 165);
             lblGender.Name = "lblGender";
-            lblGender.Size = new Size(60, 18);
+            lblGender.Size = new Size(76, 23);
             lblGender.TabIndex = 12;
             lblGender.Text = "Gender";
             // 
@@ -176,53 +177,53 @@
             cbGender.Font = new Font("Arial", 12F);
             cbGender.FormattingEnabled = true;
             cbGender.Items.AddRange(new object[] { "Male", "Female" });
-            cbGender.Location = new Point(443, 157);
+            cbGender.Location = new Point(437, 157);
             cbGender.Name = "cbGender";
-            cbGender.Size = new Size(133, 26);
+            cbGender.Size = new Size(97, 31);
             cbGender.TabIndex = 13;
             // 
             // dtpBirthday
             // 
             dtpBirthday.CalendarFont = new Font("Arial", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             dtpBirthday.Font = new Font("Arial", 12F);
-            dtpBirthday.Location = new Point(113, 199);
+            dtpBirthday.Location = new Point(107, 204);
             dtpBirthday.Name = "dtpBirthday";
-            dtpBirthday.Size = new Size(263, 26);
+            dtpBirthday.Size = new Size(263, 30);
             dtpBirthday.TabIndex = 14;
             // 
             // lblMiddleName
             // 
             lblMiddleName.AutoSize = true;
             lblMiddleName.Font = new Font("Arial", 12F);
-            lblMiddleName.Location = new Point(651, 108);
+            lblMiddleName.Location = new Point(619, 114);
             lblMiddleName.Name = "lblMiddleName";
-            lblMiddleName.Size = new Size(32, 18);
+            lblMiddleName.Size = new Size(45, 23);
             lblMiddleName.TabIndex = 15;
             lblMiddleName.Text = "M.I.";
             // 
             // txtMiddleInitial
             // 
             txtMiddleInitial.Font = new Font("Arial", 12F);
-            txtMiddleInitial.Location = new Point(682, 102);
+            txtMiddleInitial.Location = new Point(670, 107);
             txtMiddleInitial.Name = "txtMiddleInitial";
-            txtMiddleInitial.Size = new Size(87, 26);
+            txtMiddleInitial.Size = new Size(50, 30);
             txtMiddleInitial.TabIndex = 16;
             // 
             // txtContactNo
             // 
             txtContactNo.Font = new Font("Arial", 12F);
-            txtContactNo.Location = new Point(534, 197);
+            txtContactNo.Location = new Point(546, 200);
             txtContactNo.Name = "txtContactNo";
-            txtContactNo.Size = new Size(212, 26);
+            txtContactNo.Size = new Size(174, 30);
             txtContactNo.TabIndex = 18;
             // 
             // lblContactNo
             // 
             lblContactNo.AutoSize = true;
             lblContactNo.Font = new Font("Arial", 12F);
-            lblContactNo.Location = new Point(438, 202);
+            lblContactNo.Location = new Point(432, 207);
             lblContactNo.Name = "lblContactNo";
-            lblContactNo.Size = new Size(90, 18);
+            lblContactNo.Size = new Size(114, 23);
             lblContactNo.TabIndex = 17;
             lblContactNo.Text = "Contact No.";
             // 
@@ -231,9 +232,9 @@
             btnRegister.BackColor = Color.Red;
             btnRegister.FlatAppearance.BorderColor = Color.DimGray;
             btnRegister.FlatStyle = FlatStyle.Flat;
-            btnRegister.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnRegister.Font = new Font("Arial", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnRegister.ForeColor = Color.White;
-            btnRegister.Location = new Point(338, 255);
+            btnRegister.Location = new Point(317, 255);
             btnRegister.Name = "btnRegister";
             btnRegister.Size = new Size(121, 32);
             btnRegister.TabIndex = 19;
@@ -241,12 +242,28 @@
             btnRegister.UseVisualStyleBackColor = false;
             btnRegister.Click += btnRegister_Click;
             // 
+            // btnRecords
+            // 
+            btnRecords.BackColor = Color.Red;
+            btnRecords.FlatAppearance.BorderColor = Color.DimGray;
+            btnRecords.FlatStyle = FlatStyle.Flat;
+            btnRecords.Font = new Font("Arial", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnRecords.ForeColor = Color.White;
+            btnRecords.Location = new Point(615, 255);
+            btnRecords.Name = "btnRecords";
+            btnRecords.Size = new Size(105, 32);
+            btnRecords.TabIndex = 20;
+            btnRecords.Text = "Records";
+            btnRecords.UseVisualStyleBackColor = false;
+            btnRecords.Click += btnRecords_Click;
+            // 
             // FrmRegistration
             // 
-            AutoScaleDimensions = new SizeF(9F, 18F);
+            AutoScaleDimensions = new SizeF(11F, 23F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveBorder;
-            ClientSize = new Size(776, 296);
+            ClientSize = new Size(729, 296);
+            Controls.Add(btnRecords);
             Controls.Add(btnRegister);
             Controls.Add(txtContactNo);
             Controls.Add(lblContactNo);
@@ -301,5 +318,6 @@
         private TextBox txtContactNo;
         private Label lblContactNo;
         private Button btnRegister;
+        private Button btnRecords;
     }
 }

@@ -36,7 +36,7 @@ namespace SantosStreamsApp
                 cbPrograms.Items.Add(ListOfProgram[i].ToString());
             }
         }
-      
+
         private void ResetFields()
         {
             txtStudentNo.Clear();
@@ -83,16 +83,16 @@ namespace SantosStreamsApp
                 {
                     MessageBox.Show("Middle initial must be letter only.");
                     txtMiddleInitial.Focus();
-                    return;   
+                    return;
                 }
 
                 string fileName = txtStudentNo.Text + ".txt";
 
-            string folderPath = Path.Combine(
-            Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments),
-            "Santos_Dustine_LabStream");
-            Directory.CreateDirectory(folderPath);
-               
+                string folderPath = Path.Combine(
+                Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments),
+                "Santos_Dustine_LabStream");
+                Directory.CreateDirectory(folderPath);
+
                 string[] lines =
            {
                 "Student No.: " + txtStudentNo.Text,
@@ -103,22 +103,26 @@ namespace SantosStreamsApp
                 "Birthday: " + dtpBirthday.Value.ToString("yyyy-MM-dd"),
                 "Contact No.: " + txtContactNo.Text
            };
-            using (StreamWriter outputFile = new StreamWriter(Path.Combine(folderPath, fileName)))
-            {
-                foreach (string line in lines)
+                using (StreamWriter outputFile = new StreamWriter(Path.Combine(folderPath, fileName)))
                 {
-                    outputFile.WriteLine(line);
+                    foreach (string line in lines)
+                    {
+                        outputFile.WriteLine(line);
+                    }
                 }
-            }
-            MessageBox.Show("Registered! File saved as " + fileName);
+                MessageBox.Show("Registered! File saved as " + fileName);
                 ResetFields();
             }
             catch (FormatException ex)
             {
                 MessageBox.Show(ex.Message, "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
-          
+
         }
 
+        private void btnRecords_Click(object sender, EventArgs e)
+        {
+            new FrmStudentRecord().ShowDialog();
+        }
     }
 }
