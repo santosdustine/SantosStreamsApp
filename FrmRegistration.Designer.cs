@@ -54,10 +54,10 @@
             // lblRegistration
             // 
             lblRegistration.AutoSize = true;
-            lblRegistration.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblRegistration.Location = new Point(9, 19);
+            lblRegistration.Font = new Font("Arial", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblRegistration.Location = new Point(9, 9);
             lblRegistration.Name = "lblRegistration";
-            lblRegistration.Size = new Size(102, 19);
+            lblRegistration.Size = new Size(160, 32);
             lblRegistration.TabIndex = 0;
             lblRegistration.Text = "Registration";
             // 
