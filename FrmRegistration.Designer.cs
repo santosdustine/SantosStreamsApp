@@ -49,6 +49,7 @@
             lblContactNo = new Label();
             btnRegister = new Button();
             btnRecords = new Button();
+            btnCreateFile = new Button();
             SuspendLayout();
             // 
             // lblRegistration
@@ -257,12 +258,28 @@
             btnRecords.UseVisualStyleBackColor = false;
             btnRecords.Click += btnRecords_Click;
             // 
+            // btnCreateFile
+            // 
+            btnCreateFile.BackColor = Color.Red;
+            btnCreateFile.FlatAppearance.BorderColor = Color.DimGray;
+            btnCreateFile.FlatStyle = FlatStyle.Flat;
+            btnCreateFile.Font = new Font("Arial", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnCreateFile.ForeColor = Color.White;
+            btnCreateFile.Location = new Point(14, 252);
+            btnCreateFile.Name = "btnCreateFile";
+            btnCreateFile.Size = new Size(100, 32);
+            btnCreateFile.TabIndex = 21;
+            btnCreateFile.Text = "Create File";
+            btnCreateFile.UseVisualStyleBackColor = false;
+            btnCreateFile.Click += btnCreateFile_Click;
+            // 
             // FrmRegistration
             // 
             AutoScaleDimensions = new SizeF(9F, 18F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveBorder;
             ClientSize = new Size(699, 296);
+            Controls.Add(btnCreateFile);
             Controls.Add(btnRecords);
             Controls.Add(btnRegister);
             Controls.Add(txtContactNo);
@@ -319,5 +336,6 @@
         private Label lblContactNo;
         private Button btnRegister;
         private Button btnRecords;
+        private Button btnCreateFile;
     }
 }

@@ -124,5 +124,10 @@ namespace SantosStreamsApp
         {
             new FrmStudentRecord().ShowDialog();
         }
+
+        private void btnCreateFile_Click(object sender, EventArgs e)
+        {
+            new FrmLab1().ShowDialog();
+        }
     }
 }

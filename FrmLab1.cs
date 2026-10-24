@@ -40,8 +40,7 @@ namespace SantosStreamsApp
 
         private void btnRegister_Click(object sender, EventArgs e)
         {
-            FrmRegistration frmRegistration = new FrmRegistration();
-            frmRegistration.ShowDialog();
+            this.Close();
         }
     }
 }
