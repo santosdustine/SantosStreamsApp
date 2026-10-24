@@ -235,9 +235,9 @@
             btnRegister.FlatStyle = FlatStyle.Flat;
             btnRegister.Font = new Font("Arial", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnRegister.ForeColor = Color.White;
-            btnRegister.Location = new Point(286, 252);
+            btnRegister.Location = new Point(302, 253);
             btnRegister.Name = "btnRegister";
-            btnRegister.Size = new Size(121, 32);
+            btnRegister.Size = new Size(105, 31);
             btnRegister.TabIndex = 19;
             btnRegister.Text = "Register";
             btnRegister.UseVisualStyleBackColor = false;
@@ -250,9 +250,9 @@
             btnRecords.FlatStyle = FlatStyle.Flat;
             btnRecords.Font = new Font("Arial", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnRecords.ForeColor = Color.White;
-            btnRecords.Location = new Point(605, 252);
+            btnRecords.Location = new Point(605, 253);
             btnRecords.Name = "btnRecords";
-            btnRecords.Size = new Size(80, 32);
+            btnRecords.Size = new Size(80, 31);
             btnRecords.TabIndex = 20;
             btnRecords.Text = "Records";
             btnRecords.UseVisualStyleBackColor = false;
@@ -265,9 +265,9 @@
             btnCreateFile.FlatStyle = FlatStyle.Flat;
             btnCreateFile.Font = new Font("Arial", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnCreateFile.ForeColor = Color.White;
-            btnCreateFile.Location = new Point(14, 252);
+            btnCreateFile.Location = new Point(14, 253);
             btnCreateFile.Name = "btnCreateFile";
-            btnCreateFile.Size = new Size(100, 32);
+            btnCreateFile.Size = new Size(97, 31);
             btnCreateFile.TabIndex = 21;
             btnCreateFile.Text = "Create File";
             btnCreateFile.UseVisualStyleBackColor = false;

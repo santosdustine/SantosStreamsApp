@@ -38,9 +38,10 @@
             // 
             // lvRecord
             // 
+            lvRecord.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lvRecord.Location = new Point(12, 51);
             lvRecord.Name = "lvRecord";
-            lvRecord.Size = new Size(434, 190);
+            lvRecord.Size = new Size(377, 190);
             lvRecord.TabIndex = 0;
             lvRecord.UseCompatibleStateImageBehavior = false;
             lvRecord.View = View.List;
@@ -62,7 +63,7 @@
             btnRegister.FlatStyle = FlatStyle.Flat;
             btnRegister.Font = new Font("Arial", 11.25F);
             btnRegister.ForeColor = Color.White;
-            btnRegister.Location = new Point(452, 52);
+            btnRegister.Location = new Point(395, 52);
             btnRegister.Name = "btnRegister";
             btnRegister.Size = new Size(117, 31);
             btnRegister.TabIndex = 2;
@@ -77,7 +78,7 @@
             btnUpload.FlatStyle = FlatStyle.Flat;
             btnUpload.Font = new Font("Arial", 11.25F);
             btnUpload.ForeColor = Color.White;
-            btnUpload.Location = new Point(452, 136);
+            btnUpload.Location = new Point(395, 136);
             btnUpload.Name = "btnUpload";
             btnUpload.Size = new Size(117, 31);
             btnUpload.TabIndex = 3;
@@ -92,7 +93,7 @@
             btnFind.FlatStyle = FlatStyle.Flat;
             btnFind.Font = new Font("Arial", 11.25F);
             btnFind.ForeColor = Color.White;
-            btnFind.Location = new Point(452, 94);
+            btnFind.Location = new Point(395, 94);
             btnFind.Name = "btnFind";
             btnFind.Size = new Size(117, 31);
             btnFind.TabIndex = 3;
@@ -109,7 +110,7 @@
             AutoScaleDimensions = new SizeF(8F, 16F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveBorder;
-            ClientSize = new Size(579, 257);
+            ClientSize = new Size(520, 254);
             Controls.Add(btnFind);
             Controls.Add(btnUpload);
             Controls.Add(btnRegister);
