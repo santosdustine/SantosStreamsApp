@@ -51,7 +51,7 @@
             lblViewRecord.Font = new Font("Arial", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblViewRecord.Location = new Point(12, 21);
             lblViewRecord.Name = "lblViewRecord";
-            lblViewRecord.Size = new Size(141, 26);
+            lblViewRecord.Size = new Size(119, 22);
             lblViewRecord.TabIndex = 1;
             lblViewRecord.Text = "View Record";
             // 
@@ -60,11 +60,11 @@
             btnRegister.BackColor = Color.Red;
             btnRegister.FlatAppearance.BorderSize = 0;
             btnRegister.FlatStyle = FlatStyle.Flat;
-            btnRegister.Font = new Font("Arial", 10.2F);
+            btnRegister.Font = new Font("Arial", 11.25F);
             btnRegister.ForeColor = Color.White;
             btnRegister.Location = new Point(452, 52);
             btnRegister.Name = "btnRegister";
-            btnRegister.Size = new Size(117, 36);
+            btnRegister.Size = new Size(117, 31);
             btnRegister.TabIndex = 2;
             btnRegister.Text = "Register";
             btnRegister.UseVisualStyleBackColor = false;
@@ -75,11 +75,11 @@
             btnUpload.BackColor = Color.Red;
             btnUpload.FlatAppearance.BorderSize = 0;
             btnUpload.FlatStyle = FlatStyle.Flat;
-            btnUpload.Font = new Font("Arial", 10.2F);
+            btnUpload.Font = new Font("Arial", 11.25F);
             btnUpload.ForeColor = Color.White;
             btnUpload.Location = new Point(452, 136);
             btnUpload.Name = "btnUpload";
-            btnUpload.Size = new Size(117, 36);
+            btnUpload.Size = new Size(117, 31);
             btnUpload.TabIndex = 3;
             btnUpload.Text = "Upload";
             btnUpload.UseVisualStyleBackColor = false;
@@ -90,11 +90,11 @@
             btnFind.BackColor = Color.Red;
             btnFind.FlatAppearance.BorderSize = 0;
             btnFind.FlatStyle = FlatStyle.Flat;
-            btnFind.Font = new Font("Arial", 10.2F);
+            btnFind.Font = new Font("Arial", 11.25F);
             btnFind.ForeColor = Color.White;
             btnFind.Location = new Point(452, 94);
             btnFind.Name = "btnFind";
-            btnFind.Size = new Size(117, 36);
+            btnFind.Size = new Size(117, 31);
             btnFind.TabIndex = 3;
             btnFind.Text = "Find";
             btnFind.UseVisualStyleBackColor = false;
@@ -106,7 +106,7 @@
             // 
             // FrmStudentRecord
             // 
-            AutoScaleDimensions = new SizeF(10F, 21F);
+            AutoScaleDimensions = new SizeF(8F, 16F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveBorder;
             ClientSize = new Size(579, 257);
