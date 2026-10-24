@@ -46,7 +46,12 @@ namespace SantosStreamsApp
 
         private void btnUpload_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Successfully Uploaded!");
+            if (lvRecord.Items.Count == 0)
+            {
+                MessageBox.Show("No records to upload.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+            MessageBox.Show("Successfully Uploaded!", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
             lvRecord.Items.Clear();
         }
     }

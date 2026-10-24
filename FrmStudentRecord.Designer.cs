@@ -31,9 +31,9 @@
             lvRecord = new ListView();
             lblViewRecord = new Label();
             btnRegister = new Button();
-            btnUpload = new Button();
             btnFind = new Button();
             openFileDialog1 = new OpenFileDialog();
+            btnUpload = new Button();
             SuspendLayout();
             // 
             // lvRecord
@@ -71,21 +71,6 @@
             btnRegister.UseVisualStyleBackColor = false;
             btnRegister.Click += btnRegister_Click;
             // 
-            // btnUpload
-            // 
-            btnUpload.BackColor = Color.Red;
-            btnUpload.FlatAppearance.BorderSize = 0;
-            btnUpload.FlatStyle = FlatStyle.Flat;
-            btnUpload.Font = new Font("Arial", 11.25F);
-            btnUpload.ForeColor = Color.White;
-            btnUpload.Location = new Point(395, 136);
-            btnUpload.Name = "btnUpload";
-            btnUpload.Size = new Size(117, 31);
-            btnUpload.TabIndex = 3;
-            btnUpload.Text = "Upload";
-            btnUpload.UseVisualStyleBackColor = false;
-            btnUpload.Click += btnUpload_Click;
-            // 
             // btnFind
             // 
             btnFind.BackColor = Color.Red;
@@ -104,6 +89,21 @@
             // openFileDialog1
             // 
             openFileDialog1.FileName = "openFileDialog1";
+            // 
+            // btnUpload
+            // 
+            btnUpload.BackColor = Color.Red;
+            btnUpload.FlatAppearance.BorderSize = 0;
+            btnUpload.FlatStyle = FlatStyle.Flat;
+            btnUpload.Font = new Font("Arial", 11.25F);
+            btnUpload.ForeColor = Color.White;
+            btnUpload.Location = new Point(395, 136);
+            btnUpload.Name = "btnUpload";
+            btnUpload.Size = new Size(117, 31);
+            btnUpload.TabIndex = 3;
+            btnUpload.Text = "Upload";
+            btnUpload.UseVisualStyleBackColor = false;
+            btnUpload.Click += btnUpload_Click;
             // 
             // FrmStudentRecord
             // 
@@ -130,8 +130,8 @@
         private ListView lvRecord;
         private Label lblViewRecord;
         private Button btnRegister;
-        private Button btnUpload;
         private Button btnFind;
         private OpenFileDialog openFileDialog1;
+        private Button btnUpload;
     }
 }
